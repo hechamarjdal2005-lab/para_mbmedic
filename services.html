@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Soins Hydrafacial — MB Medical, Ben Guerir</title>
+  <meta name="description" content="Nos 6 soins Hydrafacial en magasin : Anti-Tache, Anti-Acné, Anti-Age, Hydratant & Oxygénant, Omega Light et Complet de Luxe. De 200 à 300 DH. Réservation sur WhatsApp.">
+  <meta name="theme-color" content="#fdf0f1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,300..800;1,6..12,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23f3dade'/><text y='68' x='50' text-anchor='middle' font-size='46' font-family='Georgia' fill='%234f6846'>MB</text></svg>">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a class="brand" href="index.html" aria-label="MB Medical — accueil">
+        <span class="brand__mark" aria-hidden="true">MB</span>
+        <span class="brand__text">
+          <strong>MB Medical</strong>
+          <small>Parapharmacie · Ben Guerir</small>
+        </span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="shop.html">Boutique</a></li>
+          <li><a href="services.html">Soins Hydrafacial</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn--wa nav__cta" data-wa-generic href="#" target="_blank" rel="noopener">Commander</a>
+        <div class="nav__meta">
+          <p><strong>Hay Ennour N°188</strong><br>Ben Guerir, El Kelaa des Sraghna</p>
+          <p><a href="tel:+212616531299">06 16 53 12 99</a></p>
+        </div>
+      </nav>
+      <div class="nav__actions">
+        <button class="iconbtn" type="button" data-cart-open aria-label="Ouvrir le panier">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="badge" data-cart-count>0</span>
+        </button>
+        <button class="burger" type="button" data-nav-toggle aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav__backdrop" aria-hidden="true"></div>
+
+  <!-- TRUST TICKER -->
+  <div class="ticker" aria-label="Nos engagements">
+    <div class="ticker__track" data-ticker></div>
+  </div>
+
+  <main>
+    <!-- PAGE HEADER -->
+    <section class="page-head">
+      <span class="blob blob--blush" style="width:290px;height:290px;top:-90px;right:-80px" aria-hidden="true"></span>
+      <span class="blob blob--sage" style="width:260px;height:260px;bottom:-90px;left:-70px" aria-hidden="true"></span>
+      <div class="page-head__inner container">
+        <nav class="crumbs" aria-label="Fil d'Ariane">
+          <a href="index.html">Accueil</a>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+          <span>Soins Hydrafacial</span>
+        </nav>
+        <h1>Nos soins <span class="title-accent">Hydrafacial</span></h1>
+        <p>Six protocoles visage, de 200 à 300 DH, réalisés en magasin à Ben Guerir par nos esthéticiennes. Réservation en 30 secondes sur WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- TREATMENT MENU + STICKY INFO -->
+    <section class="section">
+      <div class="container services-grid">
+        <div>
+          <div class="svc-list" data-services-list></div>
+
+          <div class="quote" style="margin-top:34px" data-reveal>
+            <p>Premier rendez-vous ? On commence toujours par un diagnostic de peau, offert.</p>
+            <cite>Cabine soins · Hay Ennour N°188</cite>
+          </div>
+        </div>
+
+        <!-- STICKY RAIL -->
+        <aside class="services-grid__aside">
+          <div class="svc-aside" data-reveal="right">
+            <h3>Comment ça se passe ?</h3>
+            <p>Un rendez-vous simple, environ 45 minutes de pur moment pour vous.</p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg> Diagnostic de votre type de peau</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg> Nettoyage &amp; extraction douce</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg> Sérums ciblés &amp; masque</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7"/></svg> Conseils routine maison</li>
+            </ul>
+            <a class="btn btn--wa btn--block" href="#" data-wa-generic target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.01-1.04 2.47 1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+              Réserver un soin
+            </a>
+            <p style="margin:14px 0 0;text-align:center">
+              <a href="tel:+212616531299" style="font-weight:800;color:var(--sage-600)">06 16 53 12 99</a>
+            </p>
+          </div>
+
+          <div class="hours" style="margin-top:18px" data-reveal="right">
+            <h3>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>
+              Horaires
+            </h3>
+            <div data-hours></div>
+            <p class="hours__now" data-hours-now><i></i><span>Chargement…</span></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- PRICE OVERVIEW -->
+    <section class="section section--tint">
+      <div class="container">
+        <header class="section__head section__head--center" data-reveal>
+          <span class="eyebrow eyebrow--center">Tarifs</span>
+          <h2>Le menu des <span class="title-accent">soins</span></h2>
+          <p class="lead">Prix TTC, paiement en magasin après le soin. Réservation rapide sur WhatsApp.</p>
+        </header>
+
+        <div class="price-list" data-price-list></div>
+
+        <div class="grid info-grid info-grid--3" style="margin-top:34px" data-stagger>
+          <div class="info-card">
+            <span class="info-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span>
+            <div><h3>Rendez-vous rapide</h3><p>Réservé en 30 secondes, confirmé sur WhatsApp.</p></div>
+          </div>
+          <div class="info-card">
+            <span class="info-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="m8.5 14.5-1.5 7 5-2.6 5 2.6-1.5-7"/></svg></span>
+            <div><h3>Esthéticiennes</h3><p>Des soins réalisés par des professionnelles.</p></div>
+          </div>
+          <div class="info-card">
+            <span class="info-card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5c3.4 2.4 6 5.6 6 9.2A6 6 0 0 1 6 12.7c0-3.6 2.6-6.8 6-9.2z"/></svg></span>
+            <div><h3>Diagnostic offert</h3><p>On analyse votre peau avant chaque soin.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="quote" data-reveal>
+          <p>Une peau nette, Hydratée et lumineuse — en 45 minutes.</p>
+          <cite>Réservation au 06 16 53 12 99</cite>
+          <div style="margin-top:22px;display:flex;flex-wrap:wrap;gap:10px;justify-content:center">
+            <a class="btn btn--wa" href="#" data-wa-generic target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.01-1.04 2.47 1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+              Réserver maintenant
+            </a>
+            <a class="btn btn--ghost" href="contact.html">Nous rendre visite</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__news">
+        <div>
+          <h3>Restez bien informé</h3>
+          <p>Promotions, arrivages et conseils beauté — directement sur WhatsApp, sans spam.</p>
+        </div>
+        <form class="news-form" data-news-form>
+          <input type="email" placeholder="Votre e-mail" aria-label="Votre e-mail" required>
+          <button class="btn btn--blush" type="submit">S’inscrire</button>
+        </form>
+      </div>
+
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <span class="brand__mark" aria-hidden="true">MB</span>
+            <span>
+              <strong>MB Medical</strong>
+              <small>Parapharmacie Benguerir Medical</small>
+            </span>
+          </div>
+          <p>Votre parapharmacie en ligne 24h/24 à Ben Guerir. Soins du visage, Hydrafacial et produits dermo-cosmetiques sélectionnés, livrés partout au Maroc.</p>
+          <div class="socials" style="margin-top:16px">
+            <a class="social social--ig" href="https://instagram.com/para_mbmedic" target="_blank" rel="noopener" aria-label="Instagram MB Medical">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a class="social social--wa" href="#" data-wa-generic target="_blank" rel="noopener" aria-label="WhatsApp MB Medical">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.01-1.04 2.47 1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+            </a>
+            <a class="social" href="tel:+212616531299" aria-label="Appeler MB Medical">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 16.9v2.6a1.7 1.7 0 0 1-1.9 1.7 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.9 5.5 1.7 1.7 0 0 1 5.6 3.6h2.6a1.7 1.7 0 0 1 1.7 1.5c.1.9.3 1.7.6 2.5a1.7 1.7 0 0 1-.4 1.8l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.7 1.7 0 0 1 1.8-.4c.8.3 1.6.5 2.5.6a1.7 1.7 0 0 1 1.5 1.7z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav aria-label="Liens de pied de page">
+          <h4>Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="shop.html">Boutique</a></li>
+            <li><a href="services.html">Soins Hydrafacial</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h4>Nous trouver</h4>
+          <ul class="footer__contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10.5c0 6-8 11.5-8 11.5s-8-5.5-8-11.5a8 8 0 0 1 16 0z"/><circle cx="12" cy="10.2" r="2.8"/></svg>
+              <span>Hay Ennour N°188<br>Ben Guerir, El Kelaa des Sraghna</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 16.9v2.6a1.7 1.7 0 0 1-1.9 1.7 17.6 17.6 0 0 1-7.7-2.7 17.3 17.3 0 0 1-5.3-5.3A17.6 17.6 0 0 1 3.9 5.5 1.7 1.7 0 0 1 5.6 3.6h2.6a1.7 1.7 0 0 1 1.7 1.5c.1.9.3 1.7.6 2.5a1.7 1.7 0 0 1-.4 1.8l-1.1 1.1a14 14 0 0 0 5.3 5.3l1.1-1.1a1.7 1.7 0 0 1 1.8-.4c.8.3 1.6.5 2.5.6a1.7 1.7 0 0 1 1.5 1.7z"/></svg>
+              <a href="tel:+212616531299">06 16 53 12 99</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>
+              <span>Lun — Sam : 09:00 — 21:30<br>Dimanche : 10:00 — 14:00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> Parapharmacie Benguerir Medical — Tous droits réservés.</p>
+        <p><a href="#" data-wa-generic>Commander sur WhatsApp</a> · <a href="contact.html">Nous contacter</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab-wa" href="#" data-wa-generic target="_blank" rel="noopener" aria-label="Réserver sur WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.01-1.04 2.47 1.06 2.86 1.21 3.06c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.87 9.87 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.19 8.19 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23z"/></svg>
+    <span>Réserver</span>
+  </a>
+  <button class="to-top" type="button" data-to-top aria-label="Remonter en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="data.js"></script>
+  <script src="cart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
